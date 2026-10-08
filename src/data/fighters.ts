@@ -1,0 +1,7 @@
+import type { Profile } from '../combat/types';
+export const fighters: Profile[] = [
+  { id: 'kai', name: 'Kai Navarro', nickname: 'THE ALL-ROUNDER', gym: 'Northside Jiu-Jitsu', style: 'balanced', color: '#c7ee86', skin: '#c68c65', skills: { takedown: 72, defense: 72, passing: 72, guard: 72, control: 72, submission: 72, cardio: 78 }, description: 'Fluid transitions. Strong fundamentals. A clean slate for your legacy.' },
+  { id: 'mara', name: 'Mara Silva', nickname: 'THE GUARD ARTIST', gym: 'Lotus Grappling Club', style: 'guard', color: '#ae9bff', skin: '#a26a48', skills: { takedown: 62, defense: 75, passing: 67, guard: 90, control: 68, submission: 86, cardio: 72 }, description: 'Dangerous from the bottom. Turns defensive positions into opportunities.' },
+  { id: 'eli', name: 'Eli Brooks', nickname: 'THE PRESSURE PLAYER', gym: 'Ironworks Academy', style: 'pressure', color: '#edac77', skin: '#e0ad86', skills: { takedown: 80, defense: 68, passing: 85, guard: 61, control: 88, submission: 65, cardio: 68 }, description: 'Relentless passing and heavy top control. Make every exchange count.' },
+  { id: 'noor', name: 'Noor Hassan', nickname: 'THE COUNTER WRESTLER', gym: 'Summit Wrestling', style: 'defensive', color: '#87cfe9', skin: '#b7835c', skills: { takedown: 87, defense: 88, passing: 68, guard: 68, control: 75, submission: 60, cardio: 76 }, description: 'Patient footwork. Sharp defensive timing. Punishes overcommitment.' },
+];
