@@ -22,7 +22,17 @@ npm test            # Deterministic combat and game-loop tests
 npm run typecheck
 ```
 
-### Windows / VS Code
+### Windows: double-click to play
+
+1. Install **Node.js 24 LTS** from the official Node.js website once.
+2. Extract the **entire** project ZIP into a folder; do not run the launcher inside the ZIP preview.
+3. Double-click **`START-COMBAT-LEGACY.cmd`**.
+
+The launcher installs dependencies on the first run, starts the local game server, and automatically opens your default browser. First-run installation needs internet access; subsequent launches use the installed dependencies. Keep its console window open while playing; close it to stop the server. If the usual port is busy, Vite selects another available port and opens the correct address. Errors stay visible in the console.
+
+Windows runs `.cmd` launchers directly. A custom `.start` extension would require a separate file association. The launcher calls `npm.cmd`, so it does not require changing PowerShell's execution policy.
+
+### Windows / VS Code (manual alternative)
 
 1. Install the Windows Node.js 24 LTS installer from the official Node.js website, then reopen your terminal.
 2. Extract the source archive into a folder, or open the FightLife checkout in VS Code.
